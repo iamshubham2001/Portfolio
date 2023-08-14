@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/logo1.png" type="image/png">
+    <script src="https://kit.fontawesome.com/6bd2c4485c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="preloader"></div>
+    <div id="header">
+        <div class="container">
+            <nav id="navbar">
+                <img src="image/header.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Achievement</a></li>
+                    <li><a href="#portfolio">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <section class="hidden">
+            <div class="header-text">
+                <span class="auto"></span>
+                <h1>Hi I'm  <span>Shubham Sharma</span><br></h1><br>
+                <h3></h3>
+                <span class="quote"></span>
+            </div>
+    </div>
+    </div>
+</section>
+    <!--------------------------------------------------about---------------------------------------------------------->
+    <section class="hidden1">
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/avatar1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Hello, My self Shubham Sharma from Jehanabad, Bihar.Currently, I persuing BE in <span>Electronics & Communication</span> Engineering at NMIT, Bangalore. Through out my academic studies, I learned so many skills Like C++, MySQL, Java, Linux, HTML, CSS, JavaScript. I have done data structures and algorithms
+                        on various platforms like <span>GeeksForGeeks</span> & <span>LeetCode</span>. I had a chance to work on several project that allowed me to apply theoritical knowledge in real world scenario as like <span>Virtual Assistant</span> using Python,<span>Music Streaming</span> in web development, <span>Student Management system</span> using Oops concepts. Alongwith my studies, I participate in cultural fest of college in Anadayanta where i am in core member of art club where my role is to manage art supplies and maintaning inventory system.  I'm interested in working on web development, designing and developing an application.
+                        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-----------------------------------Education------------------------------------------------------------------------>
+    <section class="hidden2"> 
+        <div id="Education and Skills">
+            <div class="container">               
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links " onclick="opentab('skills')">Skills</p>
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>Languages</span><br>C++,Python(Basics),JavaScript.
+                            </li>
+                            <li>
+                                <span>Web Developer</span><br>HTML,CSS,Bootstrap,ReactJS.
+                            </li>
+                            <li>
+                                <span>Technologies/Frameworks</span><br>Linux, GitHub, MySQL, MongoDB
+                            </li>
+                            <li>
+                                <span>
+                                    Computer Fundamentals</span><br>Operating System, DBMS, Computer Network.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>2016-2017</span><br>10th From D.A.V Public School, Jehanabad, Bihar .
+                            </li>
+                            <li>
+                                <span>2018-2019</span><br>12th From Bal Vidya Niketan, Jehanabad, Bihar.
+                            </li>
+                            <li>
+                                <span>2020-2024</span><br>B.E Electronics and Communication From NMIT, Bangalore.
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+            </div>
+                   
+</section>
+    <!--------------------------------------------------services--------------------------------------------->
+    <section class="hidden">
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">Achievement</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Code Clause</h2>
+                    <span>Web Development Intern</span>
+                        <p>• Developed Music Streaming Application using HTML, CSS and JavaScript.</p>                        
+                        <p>• Worked with fellow team members to plan and execute various web projects.</p>
+                        
+                    <a href="https://drive.google.com/file/d/1pfK29_2u7ZEEUqXyd68v36CEjdaAOoKF/view?usp=drive_link"><i class="fa-solid fa-location-arrow"></i></a>Learn More..
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>GeeksForGeeks</h2>
+                    <p>I have solved 200+ problems with a score over 450.</p>
+                    <a href="https://auth.geeksforgeeks.org/user/myshubhdnkw/practice"><i class="fa-solid fa-location-arrow"></i></a>Learn More..
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>LeetCode</h2>
+                    <p>I have solved 50+ problems</p>
+                    <a href="https://leetcode.com/Shubham____Sharma/"><i class="fa-solid fa-location-arrow"></i></a>Learn More..
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-------------------------------------------------------project----------------------------------------------->
+  <section class="hidden1">
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">projects</h1>
+            <div class="work-list">
+               <div class="work">
+                <!-- <p>Click <i class="fa-solid fa-link"></i> to Learn More...</p> -->
+                <img src="image/VI.jpeg">
+                <div class="layer">
+                    <h3>Virtual Asistent</h3>
+                    <p>This is a virtual application developed using concepts of Artificial Intelligence.
+                         A user-friendly interface for the virtual assistant, allowing users to interact through voice commands and text .</p>
+                    <a href="https://github.com/iamshubham2001/Virtual-Assistant"><i class="fa-solid fa-link"></i></a>
+                </div>
+               </div>
+               <div class="work">
+                <!-- <p>Click <i class="fa-solid fa-link"></i> to Learn More...</p> -->
+                <img src="image/cpp.jpeg">
+                <div class="layer">
+                    <h3>School Management System</h3>
+                    <p>The Student Management System project in C++ is designed to simplify student information management.
+                        It automates tasks such as entering, displaying, searching, updating, and deleting records.
+                        </p>
+                    <a href="https://github.com/iamshubham2001/School-Management-System"><i class="fa-solid fa-link"></i></a>
+                </div>
+               </div>
+               
+               <div class="work">
+                <!-- <p>Click <i class="fa-solid fa-link"></i> to Learn More...</p> -->
+                <img src="image/music.jpeg">
+                <div class="layer">
+                    <h3>Music Clone</h3>
+                    <p>This is a Music Webpage developed using HTML, CSS, and JavaScript.
+                        It has all the standard features using which one can play, pause, and even seek through the added tracks.</p>
+                    <a href="https://github.com/iamshubham2001/Music-Clone"><i class="fa-solid fa-location-arrow"></i></a>Learn More..
+                </div>
+               </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-------------------------------------------------------contact----------------------------------------------------->
+    <section class="hidden">
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>myshubham2001@gmail.com</p> 
+                    <p><i class="fa-solid fa-phone"></i>9653247336</p>
+                    <div class="social-icon">
+                        <div class="linkedin">
+                        <a href="https://www.linkedin.com/in/shubham-sharma-199026174/"><i class="fa-brands fa-linkedin-in"></i></a>
+                       </div>
+                       <div class="insta">
+                        <a href="https://www.instagram.com/_shubham__sharma_01/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="git">
+                        <a href="https://github.com/iamshubham2001"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <!-- <div class="tweet">
+                        <a href="https://twitter.com/Rajaman_0807"><i class="fa-brands fa-twitter"></i></a>
+                    </div> -->
+                    <div class="snap">
+                        <a href="tel:8002154837"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    </div>
+                   <a href="Resume.pdf" class="btn"><i class="fa-solid fa-download"></i> Resume</a>
+                    
+                </div>
+                
+                <div class="contact-right">
+                 <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Name" required>
+                    <input type="email" name="Email" placeholder="Email ID" required>
+                    <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                 </form>
+                 <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+        <div class="copyright">
+            <p>Copyright © Shubham. Made with <i class="fa-solid fa-heart"></i> By Shubham Sharma</p>
+        </div>
+    </div>
+
+    <script src="port.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto",{
+           strings:["Software Developer...","Frontend Developer..."],
+           typeSpeed: 60,
+           backSpeed:50,
+           loop:true 
+        })
+        var typed1 = new Typed(".quote",{
+           strings:[":: I am applying my knowledge and skills to real-world problems!!!"],
+           typeSpeed: 25
+        })
+    </script>
+</body>
+</html>
